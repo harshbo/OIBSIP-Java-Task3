@@ -11,6 +11,7 @@ public class ATM {
             System.out.println("1. Transactions History");
             System.out.println("2. Withdraw");
             System.out.println("3. Deposit");
+	    System.out.println("4. Transfer");
             System.out.println("5. Quit");
 
             System.out.print("Enter your choice: ");
@@ -18,7 +19,7 @@ public class ATM {
 
             switch (choice) {
                 case 1:
-				System.out.println("last transaction is on dd/mm/yyyy");
+		    System.out.println("last transaction is on dd/mm/yyyy");
                     System.out.println("Your balance is $" + balance);
                     break;
                 case 2:
